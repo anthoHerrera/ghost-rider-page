@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=MonteCarlo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+.content {
+    padding: 3rem;
+    width: 100%;
+    height: 850px;
+    background-image: url('https://cdn.wallpapersafari.com/54/7/PkTQis.jpg');
+    background-size: cover;
+}
+
+.content__left {
+    float: left;
+    width: 30%;
+}
+
+.content__history h1 {
+    color:orangered;
+    font-family: 'WindSong', cursive;
+    font-size: 2vw;
+}
+
+.content__history p {
+    color: #215ecf;
+    font-family: 'Lobster', cursive;
+    font-size: 1.4vw;
+    font-weight: bold;
+    width: 28rem;
+    text-align: justify;
+}
+
+.content__right {
+    float: right;
+    margin-top: 21.5rem;
+    width: 65%;
+}
+
+.content__powers h1 {
+    color:orangered;
+    font-family: 'WindSong', cursive;
+    font-size: 2vw;
+}
+
+.content__powers p {
+    color: #215ecf;
+    font-family: 'Lobster', cursive;
+    font-size: 1.4vw;
+    font-weight: bold;
+    width: 55rem;
+    text-align: justify;
+}

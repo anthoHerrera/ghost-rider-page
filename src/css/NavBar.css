@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=WindSong:wght@500&display=swap');
+
+.navbar {
+    display: flex;
+    background-image: linear-gradient(red, yellow);
+    height: 6rem;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar__logo {
+    flex: 0.2;
+}
+
+.navbar__logo img {
+    max-width: 12rem;
+    height: 6rem;
+    object-fit: fill;
+}
+
+.navbar__links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    justify-content: flex-end;
+    
+}
+
+.navbar__links li {
+    display: inline-flex;
+    padding: 3rem;
+    
+}
+
+.navbar__links li a {
+    text-decoration: none;
+    font-family: 'WindSong', cursive;
+    font-size: 1.4rem;
+}
+
+.navbar__links li a:hover {
+    color: orangered;
+    font-size: 2rem;
+}
